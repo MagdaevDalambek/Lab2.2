@@ -10,7 +10,7 @@ if __name__ == '__main__':
     if count <= 0:
         print("Неправильное число")
     elif count == 1:
-        print("Мы успешно сдали 1 экзамен")
+        print(f"Мы успешно сдали {count} экзамен")
     elif count < 5:
         print(f"Мы успешно сдали {count} экзамена")
     elif count <= 20:
